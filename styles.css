@@ -17,7 +17,6 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 10px 20px;
-    border: 1px solid black;
 }
 
 .header-nav {
@@ -29,7 +28,6 @@ header {
     list-style-type: none;
     margin: 0;
     padding: 0px;
-    border: 1px solid black;
     text-align: center;
 }
 
