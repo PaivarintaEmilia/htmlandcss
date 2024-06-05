@@ -4,8 +4,121 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--STYLESHEET-->
+    <link rel="stylesheet" href="styles.css">
 </head>
+<header>
+    <h2>LOGO</h2>
+    <nav>
+        <ul class="header-nav">
+            <li class="nav-item">About</li>
+            <li class="nav-item">Info</li>
+            <li class="nav-item">Contact</li>
+        </ul>
+    </nav>
+    <button type="button" id="nav-button" class="btn">Contact</button>
+</header>
 <body>
+    <!--HERO-->
+    <div class="hero">
+        <h1>Proin sed quam sagittis</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et nunc lorem. Nam ligula nisl, <br> dapibus et sem ac, aliquam sollicitudin magna. Proin non diam enim</p>
+    </div>
+    <!--INTRODUCTION-->
+    <div class="introduction container">
+        <div class="introduction-text-box">
+            <h2>Pellentesque sed vehicula diam</h2>
+            <p>Ut ultrices in tellus nec luctus.</p>
+        </div>
+        <div class="introduction-img-box">
+            <img src="./images/palm-trees.jpg" alt="palm-trees" class="introduction-img">
+            <p>Aenean viverra faucibus arcu sit amet fermentum. Proin sed quam sagittis, consequat augue sit amet, condimentum nisl.</p>
+        </div>
+    </div>
+    <!--FEATURES-->
+    <div class="features-container container">
+        <div class="features-box">
+            <div class="feature">
+                <img src="./images/green-leaf.jpg" alt="green-leaf" class="featuer-img">
+                <p>Aenean viverra faucibus arcu sit amet fermentum. Proin sed quam sagittis, consequat augue sit amet, condimentum nisl.</p>
+            </div>
+            <div class="feature">
+                <img src="./images/weeds.jpg" alt="weeds-on-a-yellow-background" class="featuer-img">
+                <p>Aenean viverra faucibus arcu sit amet fermentum. Proin sed quam sagittis, consequat augue sit amet, condimentum nisl.</p>
+            </div>
+            <div class="feature">
+                <img src="./images/green-leafs-second.jpg" alt="a-lot-of-green-leafs" class="featuer-img">
+                <p>Aenean viverra faucibus arcu sit amet fermentum. Proin sed quam sagittis, consequat augue sit amet, condimentum nisl.</p>
+            </div>
+        </div>
+        <div class="features-text-box">
+            <h2>Pellentesque sed vehicula diam</h2>
+            <p>Ut ultrices in tellus nec luctus.</p>
+        </div>
+    </div>
+    <!--IMAGE BOX-->
+    <div class="image-box container">
+        <div>
+            <img src="./images/weeds-on-the-sabanas.jpg" alt="weeds-on-a-sabanas" class="image-box-image">
+        </div>
+        <div>
+            <img src="./images/weeds-in-a-jar.jpg" alt="weeds-on-a-jar" class="image-box-image">
+        </div>
+    </div>
+    <!--CONTACT FORM-->
+    <div class="contact-container container">
+        <h3>Pellentesque sed vehicula diam</h3>
+        <p>Aenean viverra faucibus arcu sit amet fermentum. Proin sed quam sagittis, consequat augue sit amet, condimentum nisl.</p>
+        <form action="submit.php" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" required>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="name">Message</label>
+            <textarea name="Message" id="Message" rows="5" cols="50" required></textarea>
+            <br>
+            <input type="submit" value="Send">
+        </form>
+    </div>
+    <!--FOOTER-->
+    <div class="footer-box container">
+        <div class="footer logo-box">
+            <h2>LOGO</h2>
+        </div>
+        <div class="footer sociamedia-box">
+            <h3>Social media</h3>
+            <ul>
+                <li>LinkedIn</li>
+                <li>Instagram</li>
+            </ul>
+        </div>
+        <div class="footer contact-box">
+            <h3>Contact Us</h3>
+            <ul>
+                <li><a href="mailto:example@email.com">example@email.com</a></li>
+                <li><a href="tel:+3847394984">+39 398233238</a></li>
+                <li>Address 12, Taiwan</li>
+            </ul>
+        </div>
+        <div class="footer linklist-box">
+            <h3>Linklist</h3>
+            <nav class="footer-nav nav">
+                <ul>
+                    <li class="nav-item">About</li>
+                    <li class="nav-item">Info</li>
+                    <li class="nav-item">Contact</li>
+                </ul>
+            </nav>
+        </div>
+    </div>
     
 </body>
 </html>
