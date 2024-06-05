@@ -71,22 +71,22 @@
     </div>
     <!--CONTACT FORM-->
     <div class="contact-container container">
-        <h3>Pellentesque sed vehicula diam</h3>
-        <p>Aenean viverra faucibus arcu sit amet fermentum. Proin sed quam sagittis, consequat augue sit amet, condimentum nisl.</p>
-        <form action="submit.php" method="post">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required>
-            <label for="phone">Phone</label>
-            <input type="tel" id="phone" name="phone" required>
-            <br>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
-            <br>
-            <label for="name">Message</label>
-            <textarea name="Message" id="Message" rows="5" cols="50" required></textarea>
-            <br>
-            <input type="submit" value="Send">
-        </form>
+        <div class="center">
+            <h3>Pellentesque sed vehicula diam</h3>
+            <p>Aenean viverra faucibus arcu sit amet fermentum. Proin sed quam sagittis, consequat augue sit amet, condimentum nisl.</p>
+            <form action="submit.php" method="post">
+                <div class="input-row">
+                    <input type="text" id="name" name="name" placeholder="Name" required>
+                    <input type="tel" id="phone" name="phone" placeholder="Phone" required>
+                </div>
+                <br>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <br>
+                <textarea name="Message" id="Message" rows="5" cols="50" placeholder="Message" required></textarea>
+                <br>
+                <input type="submit" value="Send">
+            </form>
+        </div>
     </div>
     <!--FOOTER-->
     <div class="footer-box container">
@@ -112,9 +112,9 @@
             <h3>Linklist</h3>
             <nav class="footer-nav nav">
                 <ul>
-                    <li class="nav-item">About</li>
-                    <li class="nav-item">Info</li>
-                    <li class="nav-item">Contact</li>
+                    <li class="nav-item-footer">About</li>
+                    <li class="nav-item-footer">Info</li>
+                    <li class="nav-item-footer">Contact</li>
                 </ul>
             </nav>
         </div>

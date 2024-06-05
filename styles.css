@@ -116,7 +116,7 @@ h1 {
     margin: 0;
 }
 
-.features-text-box, h2, p {
+.features-text-box, h2 p {
     text-align: right;
 }
 
@@ -137,4 +137,64 @@ h1 {
 
 /*CONTACT FORM*/
 
+.contact-container {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.center {
+    width: 70%;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.input-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 0px 5px;
+}
+
+.input-row input {
+    width: 48%; /* 50% leveydestä, jotta saadaan 2% väli inputtien välille */
+
+}
+
+
+input[type="text"], input[type="tel"], input[type="email"], textarea {
+    width: calc(100% - 20px); /* Vähennä 20px marginaalista lomakkeen reunoihin */
+    margin-bottom: 3px; /* Lisää 10px väli jokaisen inputin ja tekstikentän jälkeen */
+    padding: 5px;
+}
+
+
 /*FOOTER*/
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+    margin: 45px;
+}
+
+div > ul > li {
+    list-style-type: none;
+    margin-left: -38px;
+}
+
+.nav > ul > li {
+    list-style-type: none;
+    margin-left: -38px;
+}
+
+a {
+    color: rgb(32, 32, 32);
+}
